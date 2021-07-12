@@ -102,7 +102,7 @@ A sample address object will look like the following:
 ## Development
 
 ```bash
-# Lint a file
+# Lint the project
 npm run lint
 
 # Run tests
