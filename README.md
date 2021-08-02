@@ -16,7 +16,25 @@ DAD is the perfect companion to quickly bootstrap address data in your applicati
 
 ## Install
 
-You can download a copy of this data be either cloning this repo or downloading the data sets from the [releases page](https://github.com/justintime50/dad/releases).
+### Submodule (Recommended)
+
+```bash
+# Add the submodule to your project
+git submodule add https://github.com/Justintime50/dad.git
+
+# If DAD is already added and you need to initialize the submodule, run the following
+git submodule init && git submodule update
+```
+
+### Cloning
+
+```bash
+git clone https://github.com/Justintime50/dad.git
+```
+
+### Manual Download
+
+You can also find the data sets from the [releases page](https://github.com/justintime50/dad/releases).
 
 ## Address Data
 
