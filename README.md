@@ -8,7 +8,7 @@ Dummy Address Data (DAD) - Real addresses from all around the world.
 [![Version](https://img.shields.io/github/v/tag/justintime50/dad)](https://github.com/justintime50/dad/releases)
 [![Licence](https://img.shields.io/github/license/justintime50/dad)](https://opensource.org/licenses/mit-license.php)
 
-<img src="assets/showcase.png" alt="Showcase">
+<img src="https://raw.githubusercontent.com/justintime50/assets/main/src/dad/showcase.png" alt="Showcase">
 
 </div>
 
@@ -159,4 +159,3 @@ As these addresses are public knowledge and open sourced, I take no responsibili
 
 - Many of the addresses are provided from the [OpenAddress Project](https://openaddresses.io), others are publicly well-known landmarks.
 - `DAD` is conceptually based on [RRAD](https://github.com/EthanRBrown/rrad).
-- Showcase icon made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>.
