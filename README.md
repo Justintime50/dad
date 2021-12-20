@@ -69,6 +69,7 @@ The following files can be found in the `src/addresses` directory.
 | ------------------------ | ----------------------------- | ------------- |
 | europe/de-addresses.json | Germany - Wesel Area          | 5             |
 | europe/es-addresses.json | Spain - Countrywide           | 5             |
+| europe/fr-addresses.json | France - Paris Area           | 5             |
 | europe/uk-addresses.json | United Kingdom - England Area | 5             |
 
 ## Mexico
