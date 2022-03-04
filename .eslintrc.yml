@@ -2,13 +2,10 @@ env:
   commonjs: true
   es6: true
   node: true
-extends: "eslint:recommended"
-globals:
-  Atomics: readonly
-  SharedArrayBuffer: readonly
+extends: 'eslint:recommended'
 parserOptions:
-  ecmaVersion: 2018
+  ecmaVersion: 13
 plugins:
   - json
 rules:
-  "json/*": "error"
+  'json/*': 'error'

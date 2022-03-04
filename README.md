@@ -46,15 +46,15 @@ The following files can be found in the `src/addresses` directory.
 
 ## Australia
 
-| Filename                    | Locations       | Address Count |
-| --------------------------- | --------------- | ------------- |
-| australia/vt-addresses.json | Victoria Area   | 5             |
+| Filename                    | Locations     | Address Count |
+| --------------------------- | ------------- | ------------- |
+| australia/vt-addresses.json | Victoria Area | 5             |
 
 ## Canada
 
-| Filename                 | Locations       | Address Count |
-| ------------------------ | --------------- | ------------- |
-| canada/bc-addresses.json | BC Area         | 5             |
+| Filename                 | Locations | Address Count |
+| ------------------------ | --------- | ------------- |
+| canada/bc-addresses.json | BC Area   | 5             |
 
 ## China
 
@@ -74,9 +74,9 @@ The following files can be found in the `src/addresses` directory.
 
 ## Mexico
 
-| Filename                 | Locations                     | Address Count |
-| ------------------------ | ----------------------------- | ------------- |
-| mexico/mx-addresses.json | Mexico - Mexico City Area     | 5             |
+| Filename                 | Locations                 | Address Count |
+| ------------------------ | ------------------------- | ------------- |
+| mexico/mx-addresses.json | Mexico - Mexico City Area | 5             |
 
 ## United States
 
@@ -99,12 +99,12 @@ A sample address object will look like the following:
 
 ```json
 {
-    "street1": "231 N 1200 W",
-    "street2": "UNIT 104",
-    "city": "OREM",
-    "state": "UT",
-    "zip": "84057",
-    "country": "US"
+  "street1": "231 N 1200 W",
+  "street2": "UNIT 104",
+  "city": "OREM",
+  "state": "UT",
+  "zip": "84057",
+  "country": "US"
 }
 ```
 
@@ -112,9 +112,9 @@ A sample address object will look like the following:
 
 ```json
 {
-    "country": "United States of America",
-    "alpha_2_code": "US",
-    "alpha_3_code": "USA"
+  "country": "United States of America",
+  "alpha_2_code": "US",
+  "alpha_3_code": "USA"
 }
 ```
 
@@ -148,7 +148,7 @@ INPUT_FILE=path/to/input.json OUTPUT_FILE=path/to/output.json node utils/minifyJ
 
 ## Contributing
 
-This data is very laborious to build - any contributions are welcome! Open a PR or issue with additions or fixes. 
+This data is very laborious to build - any contributions are welcome! Open a PR or issue with additions or fixes.
 
 Lists of addresses must contain at least 5 addresses and not exceed 100 records. Both the beautified and minified lists must be present. Addresses that are not a part of the OpenAddress Project must be publicly well-known addresses (government buildings, hospitals, museums, landmarks, etc). All keys of an address record must be present and all of their values must be strings. The current test suite should enforce these standards.
 
