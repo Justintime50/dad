@@ -1,7 +1,6 @@
 /* eslint-env node, mocha */
 const assert = require('chai').assert;
 
-const sinon = require('sinon');
 const fs = require('fs');
 const slimJsonUtil = require('../utils/createSlimJson');
 
@@ -11,9 +10,8 @@ describe('Create Slim JSON Util', function () {
     if (fs.existsSync(testFileName)) {
       fs.unlinkSync(testFileName);
     }
-    process.env.DATA_SET = '';
+    process.env.DATA_SET = __dirname + '/files/test-data-set.json';
     process.env.NUM_ADDRESSES = 5;
-    sinon.stub(process.env, 'DATA_SET').value(__dirname + '/files/test-data-set.json');
     const createSlimJson = await slimJsonUtil.createSlimJson();
     assert.equal(createSlimJson, true);
   });
