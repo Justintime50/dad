@@ -1,5 +1,4 @@
 .DS_Store
-.nyc_output
 node_modules
-package-lock.json
+.nyc_output
 test-data-set.json-slim.json
