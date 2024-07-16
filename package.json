@@ -1,10 +1,10 @@
 {
   "name": "dad",
-  "version": "1.2.1",
+  "version": "2.0.0",
   "description": "Dummy Address Data (DAD) - Real addresses from all around the world.",
   "main": "index.js",
   "engines": {
-    "node": ">=12"
+    "node": ">=16"
   },
   "scripts": {
     "format": "prettier --config node_modules/justintime50-styles/src/javascript/.prettierrc.yaml --write .",
@@ -26,8 +26,8 @@
   "author": "Justintime50",
   "license": "MIT",
   "devDependencies": {
-    "chai": "^5.1",
-    "eslint": "^8.40",
+    "chai": "^4.4",
+    "eslint": "^8.57",
     "eslint-plugin-json": "^4.0",
     "justintime50-styles": "^0.6.0",
     "mocha": "^10.6",

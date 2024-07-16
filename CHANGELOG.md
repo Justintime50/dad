@@ -1,7 +1,9 @@
 # CHANGELOG
 
-## v1.2.1 (2024-07-16)
+## v2.0.0 (2024-07-16)
 
+- Drops support for Node < 16
+- Adds support for Node 20, 22
 - Bumps dependencies
 
 ## v1.2.0 (2022-02-05)
