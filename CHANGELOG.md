@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v1.2.1 (2024-07-16)
+
+- Bumps dependencies
+
 ## v1.2.0 (2022-02-05)
 
 - Adds addresses for France (closes #1)
