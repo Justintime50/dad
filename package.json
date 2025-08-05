@@ -32,7 +32,6 @@
     "eslint-plugin-json": "^4.0",
     "justintime50-styles": "^0.10.0",
     "mocha": "^11.7",
-    "nyc": "^17.1",
     "prettier": "^3.6",
     "sinon": "^21.0"
   }
