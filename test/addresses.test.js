@@ -1,8 +1,7 @@
 /* eslint-env node, mocha */
-const fs = require('fs');
-const path = require('path');
-const assert = require('chai').assert;
-const expect = require('chai').expect;
+import { assert, expect } from 'chai';
+import { readdirSync, readFileSync, statSync } from 'fs';
+import { join } from 'path';
 
 describe('Data Structure of Address Lists', function () {
   const startingDir = 'src/addresses';
@@ -10,10 +9,10 @@ describe('Data Structure of Address Lists', function () {
   let files = [];
 
   const getFilesRecursively = (directory) => {
-    const filesInDirectory = fs.readdirSync(directory);
+    const filesInDirectory = readdirSync(directory);
     for (const file of filesInDirectory) {
-      const absolute = path.join(directory, file);
-      if (fs.statSync(absolute).isDirectory()) {
+      const absolute = join(directory, file);
+      if (statSync(absolute).isDirectory()) {
         getFilesRecursively(absolute);
       } else {
         files.push(absolute);
@@ -25,7 +24,7 @@ describe('Data Structure of Address Lists', function () {
 
   files.forEach(function (file) {
     if (!filesToIgnore.includes(file)) {
-      const fileData = JSON.parse(fs.readFileSync(file));
+      const fileData = JSON.parse(readFileSync(file));
       it(`"${file}" returns a list of addresses with a length of at least 5 and no more than 100`, function () {
         assert.isAtLeast(fileData.length, 5);
         assert.isAtMost(fileData.length, 100);

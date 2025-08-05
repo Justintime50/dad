@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v3.0.0 (2025-08-05)
+
+- Converts project to module, uses import/export syntax
+
 ## v2.0.0 (2024-07-16)
 
 - Drops support for Node < 16
