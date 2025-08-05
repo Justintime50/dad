@@ -9,8 +9,8 @@
   "scripts": {
     "format": "prettier --config node_modules/justintime50-styles/src/javascript/.prettierrc.yaml --write .",
     "format-check": "prettier --config node_modules/justintime50-styles/src/javascript/.prettierrc.yaml --check .",
-    "lint": "eslint . -c node_modules/justintime50-styles/src/javascript/eslint.config.js",
-    "fix": "eslint . -c node_modules/justintime50-styles/src/javascript/eslint.config.js --fix",
+    "lint": "eslint -c node_modules/justintime50-styles/src/javascript/eslint.config.js .",
+    "fix": "eslint -c node_modules/justintime50-styles/src/javascript/eslint.config.js --fix .",
     "test": "_mocha"
   },
   "repository": {
@@ -26,13 +26,13 @@
   "author": "Justintime50",
   "license": "MIT",
   "devDependencies": {
-    "chai": "^4.4",
-    "eslint": "^9.0",
+    "chai": "^5.2",
+    "eslint": "^9.32",
     "eslint-plugin-json": "^4.0",
-    "justintime50-styles": "^0.7.0",
-    "mocha": "^10.6",
-    "nyc": "^17.0",
-    "prettier": "^3.3",
-    "sinon": "^18.0"
+    "justintime50-styles": "^0.10.0",
+    "mocha": "^11.7",
+    "nyc": "^17.1",
+    "prettier": "^3.6",
+    "sinon": "^21.0"
   }
 }
