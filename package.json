@@ -8,7 +8,7 @@
     "node": ">=16"
   },
   "scripts": {
-    "coverage": "c8 --reporter=lcov npm test",
+    "coverage": "c8 --reporter=text --reporter=lcov npm test",
     "format": "prettier --config node_modules/justintime50-styles/src/javascript/.prettierrc.yaml --write .",
     "format-check": "prettier --config node_modules/justintime50-styles/src/javascript/.prettierrc.yaml --check .",
     "lint": "eslint -c node_modules/justintime50-styles/src/javascript/eslint.config.js .",
