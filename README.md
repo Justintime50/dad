@@ -5,6 +5,7 @@
 Dummy Address Data (DAD) - Real addresses from all around the world.
 
 [![Build Status](https://github.com/Justintime50/dad/workflows/build/badge.svg)](https://github.com/Justintime50/dad/actions)
+[![Coverage Status](https://img.shields.io/codecov/c/github/justintime50/dad)](https://app.codecov.io/github/Justintime50/dad)
 [![Version](https://img.shields.io/github/v/tag/justintime50/dad)](https://github.com/justintime50/dad/releases)
 [![Licence](https://img.shields.io/github/license/justintime50/dad)](https://opensource.org/licenses/mit-license.php)
 
@@ -126,6 +127,9 @@ npm run lint
 
 # Run tests
 npm run test
+
+# Get coverage report
+npm run coverage
 ```
 
 ### Utilities
